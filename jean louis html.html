@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+   <style>
+    .header{
+    width: 100%;
+    background-color: lightblue;
+    height: fit-content;
+}
+.navigation{ 
+    padding: 2.5%;
+    font-size: 20px;
+}
+ .navigation ul li{
+    display: inline-block;
+    padding:0 16px;
+
+}
+.navigation ul li {
+    text-decoration: none;
+    color: whitesmoke;
+}
+.introduction{
+    background-color: aqua;
+    width: 100%;
+}
+.row{
+    width: 100%;
+    height: 400px;
+    background-color: aliceblue;
+    white-space:nowrap;
+}   
+.column{
+    width: 45%;
+ background-color: indianred;
+ vertical-align: top;
+ margin: 0 5px;
+ display:inline-block;
+ ;
+}
+.footer{
+    width: 100%;
+    height: 50px;
+    background-color: aqua;
+    margin:1% 0;
+}
+.footer center{
+    padding: 15px;
+}
+.image{
+    animation:emphasis 2s ease-in-out infinite  alternate;
+    color: blueviolet;
+    transition: transform 0.5s ease-in-out;
+}
+@keyframes emphasis{
+    from{
+        transform:scale(0.8);
+    }
+to{ transform: scale(1.5 );
+
+}
+}
+   </style>
+</head>
+<body>
+    <section class="header"> 
+    <div class="navigation">
+        <nav>
+            <ul>
+              <li><a href="#">Home</a></li> 
+                <li><a href="#">Services</a></li>
+                <li><a href="#">About Us</a></li>
+            </ul>
+        </nav>
+    </div>
+
+</section>
+<section class="introduction">
+        <div class="row">
+
+            <div class="column">
+              <a href="https://www.youtube.com/"><img class="image" src="C:\Users\INDATWA\Pictures\asake.jpg" alt="download" width="400" height="400"></a>
+            </div>
+    <div class="column">
+    <p>
+        he Groupe Scolaire Officiel de Butare (GSOB) Indatwa n’inkesha,<br/>
+         also known as the Indatwa n'Inkesha School,<br/> is a historic secondary<br/>
+          school in Huye District in Butare (formerly Astrida), Rwanda. As <br/>
+          well as being the oldest secondary school in the country, it is <br/>
+          regarded as one of the most prestigious and successful public schools in Rwanda.<br/>
+    </p>
+    <p>The school, originally known as the Groupe Scolaire d'Astrida, was <br/>
+        established by the Brothers of Charity in 1929. It was intended to<br/>
+         educate students who would form an élite to serve as chiefs and medical,<br/>
+          agricultural, and veterinary assistants in the Belgian mandatory administration<br/>
+           in Ruanda-Urundi. It took students, often the children of chiefs and other <br/>
+           dignitaries, from both<br/> modern-day Rwanda and Burundi.[1] <br/>Between 1932 and 1957,<br/>
+            the Groupe Scolaire d'Astrida admitted 964 students fr</p>
+    </div>
+    </div>
+</section>
+<footer class="footer">
+    <center>
+        &copy;copy right
+    </center>
+</footer>
+
+
+
+</body>
+</html>
